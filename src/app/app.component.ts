@@ -9,4 +9,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-storage-app';
+  onClick(linkName: string) {
+    console.log(`Link clicked: ${linkName}`);
+  }
 }
